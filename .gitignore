@@ -1,0 +1,11 @@
+__pycache__/ 
+*.pyc 
+*.pyo 
+*.pyd 
+.Python 
+env/ 
+venv/ 
+*.log 
+.vscode/ 
+screenshots/*.png 
+!screenshots/.gitkeep 
