@@ -1,6 +1,12 @@
 # 🎮 NEURO-VGA™: High-Performance Virtual Graphics Adapter
 ## 🇪🇸 Adaptador Gráfico Virtual de Alto Rendimiento
 
+> 🚧 **We need contributors!**
+> Help us build the most advanced Window Capture + Remote Control engine for Windows.
+> Expertise needed: **DirectX, WinAPI, PySide6, GPU optimizations**
+> 👉 Check our Issues to start contributing: https://github.com/cyberenigma-lgtm/NEURO-GFX/issues
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-00ff9d.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-3776ab.svg)](https://www.python.org/downloads/)
 [![Performance: 240FPS](https://img.shields.io/badge/performance-240FPS-red.svg)]()
